@@ -9,13 +9,13 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
   const backgroundClasses = {
     dark: "from-black to-black",
     light: "from-white to-white",
-    default: "from-bgSectionDark to-darker",
+    default: "from-white to-white",
   };
 
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
-  const titleColor = colorMode === "light" ? "text-black" : "text-white";
-  const subtitleColor = colorMode === "light" ? "text-black" : "text-white";
-  const obsTextColor = colorMode === "light" ? "text-black" : "text-white";
+  const titleColor = colorMode === "light" ? "text-black" : "text-darker";
+  const subtitleColor = colorMode === "light" ? "text-black" : "text-darker";
+  const obsTextColor = colorMode === "light" ? "text-black" : "text-darker";
   const descriptionColor = colorMode === "light" ? "text-black" : "text-white";
 
   return (
