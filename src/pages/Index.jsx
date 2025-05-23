@@ -18,7 +18,6 @@ export default function Index() {
 
   return (
     <>
-      <div>
         <Navbar colorMode={colorMode} />
         <Hero
           colorMode={colorMode}
@@ -36,7 +35,6 @@ export default function Index() {
           sixCards={false}
           paragraphsModal={false}
         />
-      </div>
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
         colorMode={colorMode}
