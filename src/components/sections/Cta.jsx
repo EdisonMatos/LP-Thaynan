@@ -25,7 +25,7 @@ export default function Cta({ colorMode = "default" }) {
 
   return (
     <>
-      <SectionArea className={`${bgClass}`}>
+      <SectionArea className="squares">
         <SectionWrapper>
           <SectionHeader
             className={`text-center ${textClass}`}

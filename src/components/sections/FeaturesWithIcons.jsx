@@ -22,7 +22,7 @@ export default function FeaturesWithIcons({ colorMode }) {
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea id="service" className={`${bgClass} `} paddingbot={true}>
+    <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
       <SectionHeader
         className={`text-center ${textClass}`}
         miniTitle={content.texts.features.miniTag}

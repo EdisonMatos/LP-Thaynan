@@ -26,7 +26,7 @@ export default function Faq({ colorMode }) {
 
   return (
     <>
-      <SectionArea id="faq" className={`${bgClass}`}>
+      <SectionArea id="faq" className="squares">
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
@@ -45,7 +45,7 @@ export default function Faq({ colorMode }) {
           <MotionDivDownToUp>
             <Paragraphs className={`text-center transition hover:scale-110`}>
               <Button
-              className="hoover:scale-0 desktop1:hover:scale-105"
+                className="hoover:scale-0 desktop1:hover:scale-105"
                 color="bg-transparent"
                 label={content.texts.faq.paragraph}
                 textclassName={titleColor}
