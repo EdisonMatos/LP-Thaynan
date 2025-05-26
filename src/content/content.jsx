@@ -355,7 +355,7 @@ const content = {
       subtitle:
         "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.03357290605!2d-48.6069829!3d-27.123752499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d7254dcb8f%3A0xe5f0fa6f4d96d021!2sR.%20222%2C%20150%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748002470825!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.0288900970313!2d-48.6078209!3d-27.123899999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d748dc6441%3A0x1bbccbbadb4b1b13!2sR.%20222%2C%20n%C2%B0258%20-%20sala%204%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748267702268!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
