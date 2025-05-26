@@ -77,7 +77,7 @@ export const infos = {
     <div>
       <p>Endereço:</p>
       <p>Rua 222, n. 258, sala 4,</p>
-      <p>Bairro Meia Praia Itapema - SC,</p>
+      <p>Meia Praia Itapema - SC,</p>
       <p>CEP 88220-000.</p>
     </div>
   ),
