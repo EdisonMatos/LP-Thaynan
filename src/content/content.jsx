@@ -393,12 +393,20 @@ const content = {
           um projeto feito com propósito, dedicação e empatia.
           <br />
           <br />
+          Sou pós-graduando em Direito de Família e Planejamento Patrimonial
+          pela Universidade do Vale do Itajaí – UNIVALI, especialista em Direito
+          do Consumidor pelo Instituto IBMEC, graduado em Direito pela
+          Universidade do Vale do Itajaí – UNIVALI, vencedor do prêmio Mérito
+          Estudantil o qual é destinado ao aluno que se destacou nas vivências
+          acadêmicas durante o curso.
+          <br />
+          <br />
           Atendo cada cliente com atenção, clareza e flexibilidade. Faço questão
           de explicar tudo de forma simples, sem "juridiquês", porque acredito
-          que entender o próprio caso é um direito também. Além disso, sempre
-          busco condições que se encaixem na realidade de quem me procura,
-          porque sei que os honorários não devem ser uma barreira para se fazer
-          justiça.
+          que entender o próprio caso também é um direito do cliente. Além
+          disso, sempre busco condições que se encaixem na realidade de quem me
+          procura, por acreditar que os honorários não devem ser uma barreira
+          para se fazer justiça.
           <br />
           <br />
           Meu objetivo é ser lembrado como um advogado acessível, moderno e
