@@ -139,7 +139,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Resolva o meu também",
+      ctaButtonText: "Resolva o seu também",
       obsHero: {
         icon: (
           <svg
@@ -195,7 +195,7 @@ const content = {
         img: featuresImg1,
         title: "Direito Civil",
         subtitle:
-          "Análise de contratos, ações e defesas cíveis, execuções e assessoramento extrajudicial.",
+          "Análise de contratos, ações e defesas judiciais, execuções e assessoramento extrajudicial.",
         description: (
           <div>
             A_Definir
@@ -267,7 +267,7 @@ const content = {
         img: featuresImg3,
         title: "Direito de Família",
         subtitle:
-          "Divórcio, partilha, união estável, pensão, guarda, convivência, curatela e apoio à decisão.",
+          "Divórcio, partilha, união estável, pensão alimentícia, guarda, convivência, curatela e tomada de decisão apoiada.",
         description: (
           <div>
             A_Definir <br />
@@ -302,7 +302,7 @@ const content = {
         img: featuresImg4,
         title: "Consultoria Jurídica",
         subtitle:
-          "Orientação preventiva, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
+          "Análises contratuais, orientações preventivas, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
         description: (
           <div>
             A_Definir
