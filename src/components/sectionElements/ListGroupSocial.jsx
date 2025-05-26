@@ -23,19 +23,19 @@ export default function ListGroupSocial({ colorMode = "default" }) {
 
   // Define cores baseadas no modo atual
   const getTextColor = () => {
-    if (colorMode === "light") return "text-black";
+    if (colorMode === "light") return "text-white";
     if (colorMode === "dark") return "text-white";
     return "text-white"; // default
   };
 
   const getHoverTextColor = () => {
-    if (colorMode === "light") return "hover:text-black";
+    if (colorMode === "light") return "hover:text-white";
     if (colorMode === "dark") return "hover:text-white";
     return "hover:text-white";
   };
 
   const getBorderColor = () => {
-    if (colorMode === "light") return "bg-black";
+    if (colorMode === "light") return "bg-white";
     if (colorMode === "dark") return "bg-white";
     return "bg-white";
   };
@@ -50,11 +50,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
         colorMode
           ? scrolling
-            ? "text-black"
-            : "text-black"
+            ? "text-white"
+            : "text-white"
           : scrolling
-          ? "text-black"
-          : "text-black transition-color duration-1000"
+          ? "text-white"
+          : "text-white transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -72,11 +72,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
               ${
                 colorMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
+                    ? "hover:text-white"
+                    : "hover:text-white"
                   : scrolling
-                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[0]}
@@ -85,8 +85,8 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               colorMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
+                  ? "bg-white"
+                  : "bg-white"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -110,11 +110,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
               ${
                 colorMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
+                    ? "hover:text-white"
+                    : "hover:text-white"
                   : scrolling
-                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[1]}
@@ -123,8 +123,8 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               colorMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
+                  ? "bg-white"
+                  : "bg-white"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -147,11 +147,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
               ${
                 colorMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
+                    ? "hover:text-white"
+                    : "hover:text-white"
                   : scrolling
-                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[2]}
@@ -160,8 +160,8 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               colorMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
+                  ? "bg-white"
+                  : "bg-white"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -184,11 +184,11 @@ export default function ListGroupSocial({ colorMode = "default" }) {
               ${
                 colorMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
+                    ? "hover:text-white"
+                    : "hover:text-white"
                   : scrolling
-                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-white [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[3]}
@@ -197,8 +197,8 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               colorMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
+                  ? "bg-white"
+                  : "bg-white"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"

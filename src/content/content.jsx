@@ -125,7 +125,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL EM ITAPEMA - SC",
+      miniTag: "ADVOGADO EM ITAPEMA - SC",
       title: (
         <h1 className="mb-[16px]">
           Já viu problema sumir
