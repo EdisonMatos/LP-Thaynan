@@ -91,8 +91,8 @@ export default function NavbarSocial({ colorMode }) {
     }
     // default
     return scrolling
-      ? "bg-gradient-to-b from-white to-white bg-opacity-100 shadow-lg border-b-[1px] border-primary"
-      : "bg-gradient-to-b from-white to-transparent border-b-[1px] border-none";
+      ? "bg-gradient-to-b from-darker to-darker bg-opacity-100 shadow-lg border-b-[1px] border-primary"
+      : "bg-gradient-to-b from-darker to-transparent border-b-[1px] border-none";
   };
 
   return (
@@ -102,7 +102,7 @@ export default function NavbarSocial({ colorMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[50%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[20%] desktop2:max-w-[190px]"
+            className="cursor-pointer w-[60%] phone2:w-[65%] phone3:w-[70%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[900px]"
             spy={true}
             smooth={true}
             duration={500}

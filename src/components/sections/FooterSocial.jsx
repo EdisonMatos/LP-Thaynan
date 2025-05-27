@@ -36,6 +36,7 @@ export default function FooterSocial({
   emailSecundario,
   phoneSecundario,
   phoneTerciario,
+  email,
 }) {
   // Define estilos com base no colorMode
   let footerBackground = "";
@@ -69,7 +70,7 @@ export default function FooterSocial({
               <PhoneFooter colorMode={colorMode} />
               {phoneSecundario && <PhoneSecundario />}
               {phoneTerciario && <PhoneTerciario />}
-              <EmailFooter />
+              {email && <EmailFooter />}
               {emailSecundario && <EmailSecundarioFooter />}
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}

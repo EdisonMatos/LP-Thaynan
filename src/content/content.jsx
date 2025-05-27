@@ -55,7 +55,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Advogado Dr. Thaynan Peres",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "thaynanperes.adv@gmail.com", // Email desejado pelo cliente
   domain: "thaynanperesadv.com.br", // Sem "www"
   phone: {
     ddd: "47",
@@ -77,7 +77,7 @@ export const infos = {
     <div>
       <p>Endereço:</p>
       <p>Rua 222, n. 258, sala 4,</p>
-      <p>Bairro Meia Praia Itapema - SC,</p>
+      <p>Meia Praia Itapema - SC,</p>
       <p>CEP 88220-000.</p>
     </div>
   ),
@@ -125,7 +125,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL EM ITAPEMA - SC",
+      miniTag: "ADVOGADO EM ITAPEMA - SC",
       title: (
         <h1 className="mb-[16px]">
           Já viu problema sumir
@@ -139,7 +139,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Resolva o meu também",
+      ctaButtonText: "Resolva o seu também",
       obsHero: {
         icon: (
           <svg
@@ -195,7 +195,7 @@ const content = {
         img: featuresImg1,
         title: "Direito Civil",
         subtitle:
-          "Análise de contratos, ações e defesas cíveis, execuções e assessoramento extrajudicial.",
+          "Análise de contratos, ações e defesas judiciais, execuções e assessoramento extrajudicial.",
         description: (
           <div>
             A_Definir
@@ -267,7 +267,7 @@ const content = {
         img: featuresImg3,
         title: "Direito de Família",
         subtitle:
-          "Divórcio, partilha, união estável, pensão, guarda, convivência, curatela e apoio à decisão.",
+          "Divórcio, partilha, união estável, pensão alimentícia, guarda, convivência, curatela e tomada de decisão apoiada.",
         description: (
           <div>
             A_Definir <br />
@@ -302,7 +302,7 @@ const content = {
         img: featuresImg4,
         title: "Consultoria Jurídica",
         subtitle:
-          "Orientação preventiva, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
+          "Análises contratuais, orientações preventivas, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
         description: (
           <div>
             A_Definir
@@ -355,7 +355,7 @@ const content = {
       subtitle:
         "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.03357290605!2d-48.6069829!3d-27.123752499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d7254dcb8f%3A0xe5f0fa6f4d96d021!2sR.%20222%2C%20150%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748002470825!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.0288900970313!2d-48.6078209!3d-27.123899999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d748dc6441%3A0x1bbccbbadb4b1b13!2sR.%20222%2C%20n%C2%B0258%20-%20sala%204%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748267702268!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -393,12 +393,20 @@ const content = {
           um projeto feito com propósito, dedicação e empatia.
           <br />
           <br />
+          Sou pós-graduando em Direito de Família e Planejamento Patrimonial
+          pela Universidade do Vale do Itajaí – UNIVALI, especialista em Direito
+          do Consumidor pelo Instituto IBMEC, graduado em Direito pela
+          Universidade do Vale do Itajaí – UNIVALI, vencedor do prêmio Mérito
+          Estudantil o qual é destinado ao aluno que se destacou nas vivências
+          acadêmicas durante o curso.
+          <br />
+          <br />
           Atendo cada cliente com atenção, clareza e flexibilidade. Faço questão
           de explicar tudo de forma simples, sem "juridiquês", porque acredito
-          que entender o próprio caso é um direito também. Além disso, sempre
-          busco condições que se encaixem na realidade de quem me procura,
-          porque sei que os honorários não devem ser uma barreira para se fazer
-          justiça.
+          que entender o próprio caso também é um direito do cliente. Além
+          disso, sempre busco condições que se encaixem na realidade de quem me
+          procura, por acreditar que os honorários não devem ser uma barreira
+          para se fazer justiça.
           <br />
           <br />
           Meu objetivo é ser lembrado como um advogado acessível, moderno e
@@ -465,7 +473,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },

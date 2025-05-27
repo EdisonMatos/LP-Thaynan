@@ -18,23 +18,23 @@ export default function Index() {
 
   return (
     <>
-        <Navbar colorMode={colorMode} />
-        <Hero
-          colorMode={colorMode}
-          appDownloadButtons={false}
-          defaultHero={true}
-          influencer={false}
-          mesclado={false}
-        />
-        <Features
-          colorMode={colorMode}
-          defaultFeature={true}
-          button={false}
-          modalWithCards={false}
-          paragraphs={false}
-          sixCards={false}
-          paragraphsModal={false}
-        />
+      <Navbar colorMode={colorMode} />
+      <Hero
+        colorMode={colorMode}
+        appDownloadButtons={false}
+        defaultHero={true}
+        influencer={false}
+        mesclado={false}
+      />
+      <Features
+        colorMode={colorMode}
+        defaultFeature={true}
+        button={false}
+        modalWithCards={false}
+        paragraphs={false}
+        sixCards={false}
+        paragraphsModal={false}
+      />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
         colorMode={colorMode}
@@ -50,7 +50,8 @@ export default function Index() {
         addres={true}
         phoneSecundario={false}
         phoneTerciario={false}
-        emailSecundario={false}
+        email={false}
+        emailSecundario={true}
         addresSecundario={false}
         instagram={true}
       />
