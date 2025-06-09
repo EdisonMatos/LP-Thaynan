@@ -1,3 +1,4 @@
 User-agent: *
-Sitemap: https:/www.thaynanperesadv.com.br/sitemap.xml
+Disallow:
 
+Sitemap: https://www.thaynanperesadv.com.br/sitemap.xml
